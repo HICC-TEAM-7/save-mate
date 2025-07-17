@@ -252,7 +252,7 @@ Figma를 통해 앱 UI 시안이 제작 중입니다.
 | --- | --- | --- | --- |
 | 조소현 | 디자이너/기획 |  |  |
 | 김민서 | 백엔드/기획 |  |  |
-| 박서영 | 백엔드/기획 | [@Mymyseoyoung (https://github.com/Mymyseoyoung) |  |
+| 박서영 | 백엔드/기획 | [@Mymyseoyoung] (https://github.com/Mymyseoyoung) |  |
 | 김범수 | 프론트엔드/기획 |[@nonoididnt](https://github.com/nonoididnt) |  |
 | 박유빈 | 프론트엔드/기획 | [@daydreamplace](https://github.com/daydreamplace) |  |
 
