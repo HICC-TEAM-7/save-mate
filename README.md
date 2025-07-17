@@ -198,7 +198,7 @@ Figma를 통해 앱 UI 시안이 제작 중입니다.
 | --- | --- |
 | Frontend | React, |
 | Backend | Spring, |
-| Database | MySQL |
+| Database | MySQL,H2 |
 | 협업 도구 | Figma, Notion, Discord |
 
 ---
@@ -225,10 +225,23 @@ Figma를 통해 앱 UI 시안이 제작 중입니다.
 
 ```bash
 📦project-root
- ┣
- ┗
+ ┣ 📂src
+ ┃ ┗ 📂main
+ ┃   ┣ 📂java
+ ┃   ┃ ┗ 📂com
+ ┃   ┃   ┗ 📂hicc
+ ┃   ┃     ┗ 📂budget
+ ┃   ┃       ┣ 📂domain       # Entity 및 도메인 로직
+ ┃   ┃       ┣ 📂controller   # API 컨트롤러
+ ┃   ┃       ┣ 📂service      # 비즈니스 로직 처리
+ ┃   ┃       ┣ 📂repository   # JPA 인터페이스
+ ┃   ┃       ┣ 📂dto          # 요청/응답 DTO 클래스
+ ┃   ┃       ┗ 📂config       # 설정 관련 클래스
+ ┃   ┗ 📂resources
+ ┃     ┗ 📄application.properties (or .yml)
+ ┣ 📄README.md
+ ┗ 📄build.gradle 
 ```
-
 ---
 
 ## 👥 팀원 소개
@@ -237,7 +250,7 @@ Figma를 통해 앱 UI 시안이 제작 중입니다.
 | --- | --- | --- | --- |
 | 조소현 | 디자이너/기획 |  |  |
 | 김민서 | 백엔드/기획 |  |  |
-| 박서영 | 백엔드/기획 |  |  |
+| 박서영 | 백엔드/기획 | @Mymyseoyoung (https://github.com/Mymyseoyoung) |  |
 | 김범수 | 프론트엔드/기획 |[@nonoididnt](https://github.com/nonoididnt) |  |
 | 박유빈 | 프론트엔드/기획 | [@daydreamplace](https://github.com/daydreamplace) |  |
 
